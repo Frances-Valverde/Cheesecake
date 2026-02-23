@@ -1,3 +1,4 @@
+/* General Page Styling */
 body {
   margin: 0;
   font-family: 'Georgia', serif;
@@ -6,41 +7,64 @@ body {
   line-height: 1.6;
 }
 
+/* Hero Section with Background Image */
 .hero {
-  background-color: #e8cfc1;
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.45),
+    rgba(0, 0, 0, 0.45)
+  ),
+  url("cheesecake.jpg");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
   text-align: center;
-  padding: 60px 20px;
+  color: white;
+  padding: 100px 20px;
 }
 
+/* Hero Text */
 .hero h1 {
   margin: 0;
   font-size: 3em;
+  letter-spacing: 1px;
 }
 
 .hero p {
-  font-size: 1.2em;
-  margin-top: 10px;
+  margin-top: 15px;
+  font-size: 1.3em;
 }
 
+/* Main Content Area */
 main {
   max-width: 800px;
-  margin: 40px auto;
+  margin: 50px auto;
   padding: 0 20px;
 }
 
+/* Content Sections */
 .content {
-  margin-bottom: 40px;
+  margin-bottom: 45px;
 }
 
+/* Section Headings */
 .content h2 {
   color: #7a4f3d;
   border-bottom: 2px solid #e8cfc1;
-  padding-bottom: 5px;
+  padding-bottom: 6px;
+  margin-bottom: 15px;
 }
 
+/* Paragraph Styling */
+.content p {
+  font-size: 1.05em;
+}
+
+/* Footer */
 footer {
   background-color: #e8cfc1;
   text-align: center;
-  padding: 20px;
+  padding: 25px;
   font-size: 0.9em;
-}
+  color: #4a3b2f;
